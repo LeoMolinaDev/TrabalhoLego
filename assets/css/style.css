@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: white;
 }
 
 /*div{
@@ -20,7 +20,13 @@ body{
 }
 
 header{
+    background-color: yellow;
+    width: 100%;
+}
+
+footer{
     background-color: black;
+    height: 100px;
     width: 100%;
 }
 
@@ -30,4 +36,31 @@ header{
 
 .menu{
     width: 50%;
+}
+
+.imgProdutos{
+    width: 200px;
+    height: 200px;
+}
+
+.centralizar{
+    margin: auto;
+    align-content: center;
+    text-align: center;
+}
+
+table{
+    margin: auto;
+    border: double;
+    border: 2;
+    width: 200px;
+    height: 100px;
+}
+
+h1{
+    color: black;
+}
+
+p{
+    color: black;
 }
