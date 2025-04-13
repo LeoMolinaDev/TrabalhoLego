@@ -8,6 +8,11 @@ body{
     background-color: white;
 }
 
+a{
+    text-decoration: none;
+    color: darkslategrey;
+}
+
 /*div{
     background-color: aliceblue;
 }*/
@@ -51,10 +56,12 @@ footer{
 
 table{
     margin: auto;
-    border: double;
+    border: solid;
+    border-color: gray;
+    border-radius: 5px;
     border: 2;
     width: 200px;
-    height: 100px;
+    height: 250px;
 }
 
 h1{
@@ -63,4 +70,36 @@ h1{
 
 p{
     color: black;
+}
+
+.borda{
+    border: solid;
+    height: 300px;
+    width: 300px;
+}
+
+.imagens{
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.cadastro{
+    border: solid;
+    border-radius: 5px;
+    border-color: gray;
+    width: 200px;
+}
+
+.botao{
+    color: aliceblue;
+    padding: 5px;
+    width: 180px;
+    border: solid;
+    border: 100px;
+    border-radius: 5px;
+    background-color: rgb(255, 102, 0);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
 }
