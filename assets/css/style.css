@@ -5,6 +5,7 @@
 }
 
 body{
+    margin: 0%;
     background-color: white;
 }
 
@@ -13,9 +14,6 @@ a{
     color: darkslategrey;
 }
 
-/*div{
-    background-color: aliceblue;
-}*/
 
 .container{
     max-width: 1080px;
@@ -24,23 +22,29 @@ a{
     justify-content: center;
 }
 
+.logo{
+    width:50px;
+    height: 50px;
+}
+
+.container2{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 header{
     background-color: yellow;
     width: 100%;
 }
 
 footer{
-    background-color: black;
-    height: 100px;
+    background-color: #201d48;
+    height: 230px;
     width: 100%;
-}
-
-.logo{
-    width: 10%;
-}
-
-.menu{
-    width: 50%;
 }
 
 .imgProdutos{
@@ -64,9 +68,22 @@ table{
     height: 250px;
 }
 
+.table2{
+    margin: 0%;
+    border: 0;
+    width: 100px;
+    height: 0px;
+}
+
 h1{
     color: black;
 }
+
+h2{
+    color: white;
+    font-size: small;
+}
+
 h5{
     color: black;
 }
@@ -92,6 +109,11 @@ p{
     border-radius: 5px;
     border-color: gray;
     width: 200px;
+}
+
+.click{
+    color: white;
+    cursor: pointer;
 }
 
 .botao{
